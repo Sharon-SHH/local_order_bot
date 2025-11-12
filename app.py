@@ -38,7 +38,6 @@ def chat():
     init_db()
     menu = load_menu()
     menu_text = json.dumps(menu)  # compact for prompt
-    print(menu_text, type(menu_text))
     typer.echo("👋 Welcome to Local Order Bot! Type 'quit' to exit.\n")
     cart = None
     while True:
@@ -47,7 +46,6 @@ def chat():
             break
         try:
             draft = extract_order(user, menu_text)
-            print(draft)
         except (ValidationError, AssertionError, json.JSONDecodeError) as e:
             typer.echo(f"🤖 Sorry, I couldn't parse that. Please rephrase. ({e})")
             continue
