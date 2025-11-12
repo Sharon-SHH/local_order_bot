@@ -1,0 +1,18 @@
+pizzas:
+  pepperoni:  {small: 7.00, medium: 10.00, large: 12.95}
+  cheese:     {small: 6.50, medium: 9.25,  large: 10.95}
+  eggplant:   {small: 6.75, medium: 9.75,  large: 11.95}
+toppings:
+  extra cheese: 2.00
+  mushrooms:    1.50
+  sausage:      3.00
+  canadian bacon: 3.50
+  ai sauce:     1.50
+  peppers:      1.00
+sides:
+  fries: {small: 3.50, large: 4.50}
+  greek salad: {one_size: 7.25}
+drinks:
+  coke:   {small: 1.00, medium: 2.00, large: 3.00}
+  sprite: {small: 1.00, medium: 2.00, large: 3.00}
+  bottled water: {one_size: 5.00}
