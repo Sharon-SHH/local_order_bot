@@ -7,7 +7,7 @@ An AI-powered pizza ordering chatbot built with Python, Typer CLI, Pydantic, and
 **Install and start Ollama**
 ```
 brew install ollama
-ollama pull llama3.2:3b-instruct
+ollama pull llama3:8b
 ollama serve
 ```
 
